@@ -7,7 +7,7 @@ public class Galery : MonoBehaviour
     #region variables
 
     float umfang;
-    float radius=10f;
+    float radius=8f;
     float anzahlNFTs=8;
     float _angle;
     private Vector3 _centre;
@@ -40,7 +40,6 @@ public class Galery : MonoBehaviour
             newObject.SetActive(true);
         }
 
-       
 
     }
 }
